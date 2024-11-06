@@ -24,7 +24,7 @@
 				<span><i class="bi bi-circle-fill text-success mx-2"></i> برگزاری کلاس</span>
 				<span><i class="bi bi-circle-fill text-danger mx-2"></i> لغو کلاس</span>
 				<span><i class="bi bi-circle-fill text-info mx-2"></i> آنلاین / آفلاین</span>
-				<span><i class="bi bi-circle-fill text-noclass mx-2"></i> تعطیلی کلاس</span>
+				<span><i class="bi bi-circle-fill text-noclass mx-2"></i> تعطیلی / اتمام کلاس</span>
 				<span><i class="bi bi-circle-fill text-warning mx-2"></i> نامعلوم</span>
 			</div>
 			<div id="week-table" class="table-responsive mt-2">
@@ -40,14 +40,14 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th scope="row">شنبه<br><span id="sh-date">۱۴۰۳‌‌‌‌‌/۷/۱۴</span></th>
+							<th scope="row">شنبه<br><span id="sh-date">۱۴۰۳‌‌‌‌‌/۸/۱۹</span></th>
 							<td id="sh-08" class="p-0">
 								<div class="d-flex flex-column justify-content-center align-items-stretch h-100 pb-1 bg-success no-modal">
 									<div class="flex-fill d-flex flex-row justify-content-center align-items-stretch">
-										<div id="sh-08-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#govaresh-details">
+										<div id="sh-08-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass" data-bs-toggle="modal" data-bs-target="#govaresh-details">
 											گوارش
 										</div>
-										<div id="sh-08-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass text-white-50 no-modal">
+										<div id="sh-08-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#ghodad-details">
 											غدد
 										</div>
 									</div>
@@ -71,15 +71,15 @@
 							</td>
 						</tr>
 						<tr>
-							<th scope="row">یک‌شنبه<br><span id="y-date">۱۴۰۳‌‌‌‌‌/۷/۱۵</span></th>
-							<td id="y-08" class="bg-success" data-bs-toggle="modal" data-bs-target="#edrari-details">ادراری<br><span>(شهید هاشمی‌نژاد)</span></td>
+							<th scope="row">یک‌شنبه<br><span id="y-date">۱۴۰۳‌‌‌‌‌/۸/۲۰</span></th>
+							<td id="y-08" class="bg-noclass" data-bs-toggle="modal" data-bs-target="#edrari-details">ادراری<br><span>(شهید هاشمی‌نژاد)</span></td>
 							<td id="y-10" class="p-0">
 								<div class="d-flex flex-column justify-content-center align-items-stretch h-100 pb-1 bg-success no-modal">
 									<div class="flex-fill d-flex flex-row justify-content-center align-items-stretch">
-										<div id="y-10-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#govaresh-details">
+										<div id="y-10-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass" data-bs-toggle="modal" data-bs-target="#govaresh-details">
 											گوارش
 										</div>
-										<div id="y-10-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass text-white-50 no-modal">
+										<div id="y-10-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#ghodad-details">
 											غدد
 										</div>
 									</div>
@@ -90,18 +90,18 @@
 							<td id="y-15" class=""></td>
 						</tr>
 						<tr>
-							<th scope="row">دوشنبه<br><span id="d-date">۱۴۰۳‌‌‌‌‌/۷/۱۶</span></th>
+							<th scope="row">دوشنبه<br><span id="d-date">۱۴۰۳‌‌‌‌‌/۸/۲۱</span></th>
 							<td id="d-08" class="p-0">
 								<div class="d-flex flex-column justify-content-center align-items-stretch h-100">
 									<div class="d-flex flex-column justify-content-center align-items-stretch pb-1 bg-success border-bottom no-modal">
 										<div class="d-flex flex-row justify-content-center align-items-stretch">
-											<div id="d-08-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass" data-bs-toggle="modal" data-bs-target="#govaresh-amali-details">
+											<div id="d-08-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#govaresh-amali-details">
 												گوارش عملی
 											</div>
-											<div id="d-08-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#edrari-amali-details">
+											<div id="d-08-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass" data-bs-toggle="modal" data-bs-target="#edrari-amali-details">
 												ادراری عملی
 											</div>
-											<div id="d-08-3" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass text-white-50 no-modal">
+											<div id="d-08-3" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass"  data-bs-toggle="modal" data-bs-target="#ghodad-amali-details">
 												غدد عملی
 											</div>
 										</div>
@@ -119,13 +119,13 @@
 								<div class="d-flex flex-column justify-content-center align-items-stretch h-100">
 									<div class="d-flex flex-column justify-content-center align-items-stretch pb-1 bg-success border-bottom no-modal">
 										<div class="d-flex flex-row justify-content-center align-items-stretch">
-											<div id="d-10-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass" data-bs-toggle="modal" data-bs-target="#govaresh-amali-details">
+											<div id="d-10-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#govaresh-amali-details">
 												گوارش عملی
 											</div>
-											<div id="d-10-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#edrari-amali-details">
+											<div id="d-10-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass" data-bs-toggle="modal" data-bs-target="#edrari-amali-details">
 												ادراری عملی
 											</div>
-											<div id="d-10-3" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass text-white-50 no-modal">
+											<div id="d-10-3" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass" data-bs-toggle="modal" data-bs-target="#ghodad-amali-details">
 												غدد عملی
 											</div>
 										</div>
@@ -143,13 +143,13 @@
 								<div class="d-flex flex-column justify-content-center align-items-stretch h-100">
 									<div class="d-flex flex-column justify-content-center align-items-stretch pb-1 bg-success border-bottom no-modal">
 										<div class="d-flex flex-row justify-content-center align-items-stretch">
-											<div id="d-13-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass" data-bs-toggle="modal" data-bs-target="#govaresh-amali-details">
+											<div id="d-13-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#govaresh-amali-details">
 												گوارش عملی
 											</div>
-											<div id="d-13-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#edrari-amali-details">
+											<div id="d-13-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass" data-bs-toggle="modal" data-bs-target="#edrari-amali-details">
 												ادراری عملی
 											</div>
-											<div id="d-13-3" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass text-white-50 no-modal">
+											<div id="d-13-3" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass" data-bs-toggle="modal" data-bs-target="#ghodad-amali-details">
 												غدد عملی
 											</div>
 										</div>
@@ -165,20 +165,21 @@
 							</td>
 							<td id="d-15" class="bg-success no-modal">
 								فارسی<br>
-                           					<span>(شهید هاشمی‌نژاد)</span>
+								(گروه ۱)<br>
+						   	<span>(شهید هاشمی‌نژاد)</span>
 							</td>
 						</tr>
 						<tr>
-							<th scope="row">سه‌شنبه<br><span id="s-date">۱۴۰۳‌‌‌‌‌/۷/۱۷</span></th>
+							<th scope="row">سه‌شنبه<br><span id="s-date">۱۴۰۳‌‌‌‌‌/۸/۲۲</span></th>
 							<td id="s-08" class="bg-success" data-bs-toggle="modal" data-bs-target="#bakteri-details">باکتری<br><span>(شهید هاشمی‌نژاد)</span></td>
-							<td id="s-10" class="bg-success" data-bs-toggle="modal" data-bs-target="#edrari-details">ادراری<br><span>(شهید هاشمی‌نژاد)</span></td>
+							<td id="s-10" class="bg-noclass" data-bs-toggle="modal" data-bs-target="#edrari-details">ادراری<br><span>(شهید هاشمی‌نژاد)</span></td>
 							<td id="s-10" class="p-0">
 								<div class="d-flex flex-column justify-content-center align-items-stretch h-100 pb-1 bg-success no-modal">
 									<div class="flex-fill d-flex flex-row justify-content-center align-items-stretch">
-										<div id="s-13-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#govaresh-details">
+										<div id="s-13-1" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass" data-bs-toggle="modal" data-bs-target="#govaresh-details">
 											گوارش
 										</div>
-										<div id="s-13-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-noclass text-white-50 no-modal">
+										<div id="s-13-2" class="flex-fill d-flex flex-column align-items-center justify-content-center py-3 px-2 bg-success" data-bs-toggle="modal" data-bs-target="#ghodad-details">
 											غدد
 										</div>
 									</div>
@@ -188,7 +189,7 @@
 							<td id="s-15" class=""></td>
 						</tr>
 						<tr>
-							<th scope="row">چهارشنبه<br><span id="ch-date">۱۴۰۳‌‌‌‌‌/۷/۱۸</span></th>
+							<th scope="row">چهارشنبه<br><span id="ch-date">۱۴۰۳‌‌‌‌‌/۸/۲۳</span></th>
 							<td id="ch-08" class="p-0">
 								<div class="d-flex flex-column justify-content-center align-items-stretch h-100">
 									<div id="ch-08-1" class="flex-fill d-flex flex-column align-items-center justify-content-center p-1 bg-success border-bottom no-modal">
@@ -235,7 +236,7 @@
 							<td id="ch-15" class="bg-success no-modal">زبان تخصصی ۲<br>(۱۰۲)<br><span>(شهید رجایی)</span></td>
 						</tr>
 						<tr>
-							<th scope="row">پنج‌شنبه<br><span id="p-date">۱۴۰۳‌‌‌‌‌/۷/۱۹</span></th>
+							<th scope="row">پنج‌شنبه<br><span id="p-date">۱۴۰۳‌‌‌‌‌/۸/۲۴</span></th>
 							<td id="p-08" class=""></td>
 							<td id="p-10" class="bg-success no-modal"><span>۹:۳۰-۱۱</span><br>تربیت بدنی ۲ خواهران<br>(۲۱۱-۲۱۲)<br><span>(دانشکده مدیریت)</span></td>
 							<td id="p-13" class="bg-success no-modal"><span>۱۱-۱۲:۳۰</span><br>تربیت بدنی ۲ برادران<br>(۲۲۹-۲۳۰)<br><span>(سالن همت)</span></td>
@@ -244,138 +245,32 @@
 					</tbody>
 				</table>
 			</div>
-			<span class="pt-5 text-black-50 d-block">آخرین آپدیت برنامۀ درسی: جمعه ۱۴۰۳/۷/۱۳ ساعت ۱۶:۵۰</span>
+			<span class="pt-5 text-black-50 d-block">آخرین آپدیت برنامۀ درسی: جمعه ۱۴۰۳/۸/۱۶ ساعت ۲۱:۵۰</span>
 		</div>
 	</div>
 	<div class="modal fade" id="govaresh-details" tabindex="-1" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-		  	<div class="modal-content">
+			<div class="modal-content">
 				<div class="modal-header">
-				  	<h5 class="modal-title" id="govaresh-modal-title">جزئیات بلوک گوارش نظری</h5>
-				  	<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+					<h5 class="modal-title" id="govaresh-modal-title">جزئیات بلوک گوارش نظری</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 				</div>
 				<div class="modal-body" id="govaresh-modal-body">
-					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> سه‌شنبه کوییز از مباحث معده و رودهٔ کوچک</p>
+					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> تدریس این بلوک پایان یافت‌.</p>
 					<p class="my-2"><i class="bi bi-geo-alt-fill"></i> <b>مکان برگزاری:</b> ابن سینا، کلاس شهید هاشمی‌نژاد</p>
 					<p class="my-2"><i class="bi bi-people-fill"></i> <b>اساتید:</b> دکتر شعبانی، دکتر پازوکی، دکتر نوربخش</p>
 					<p class="my-2"><i class="bi bi-journals"></i> <b>دروس:</b> آناتومی (۱.۵ واحد)، فیزیولوژی (۰.۶ واحد)</p>
 					<p class="my-2"><i class="bi bi-list-ol"></i> <b>مجموع واحدها:</b> ۲.۱ واحد</p>
-					<p class="mt-2 mb-1"><i class="bi bi-bookmarks-fill"></i> <b>جلسات برگزار شده:</b></p>
-					<p class="mb-2 text-center"><a class="btn btn-primary" href="https://t.me/c/1969902940/28151" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a></p>
-					<div class="accordion" id="govaresh-sessions">
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="govaresh-session-h-1">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#govaresh-session-b-1" aria-expanded="true" aria-controls="govaresh-session-b-1">
-									جلسۀ ۱
-								</button>
-							</h2>
-							<div id="govaresh-session-b-1" class="accordion-collapse collapse show" aria-labelledby="govaresh-session-h-1" data-bs-parent="#govaresh-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> شنبه ۱۴۰۳/۶/۲۴<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> آناتومی حفرۀ دهانی<br>
-									<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر شعبانی<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1307" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت کلاس</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/6/468" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="govaresh-session-h-2">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#govaresh-session-b-2" aria-expanded="false" aria-controls="govaresh-session-b-2">
-									جلسۀ ۲
-								</button>
-							</h2>
-							<div id="govaresh-session-b-2" class="accordion-collapse collapse" aria-labelledby="govaresh-session-h-2" data-bs-parent="#govaresh-sessions">
-								<div class="accordion-body">
-								<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> یک‌شنبه ۱۴۰۳/۶/۲۵<br>
-								<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> آناتومی دیوار شکمی<br>
-								<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر شعبانی<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1308" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت کلاس</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/6/499" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="govaresh-session-h-3">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#govaresh-session-b-3" aria-expanded="false" aria-controls="govaresh-session-b-3">
-									جلسۀ ۳
-								</button>
-							</h2>
-							<div id="govaresh-session-b-3" class="accordion-collapse collapse" aria-labelledby="govaresh-session-h-3" data-bs-parent="#govaresh-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> سه‌شنبه ۱۴۰۳/۶/۲۷<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> آناتومی کانال اینگوئینال<br>
-									<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر شعبانی<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1316" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت کلاس</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/6/544" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="govaresh-session-h-4">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#govaresh-session-b-4" aria-expanded="false" aria-controls="govaresh-session-b-4">
-									جلسۀ ۴
-								</button>
-							</h2>
-							<div id="govaresh-session-b-4" class="accordion-collapse collapse" aria-labelledby="govaresh-session-h-4" data-bs-parent="#govaresh-sessions">
-								<div class="accordion-body">
-								<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> شنبه ۱۴۰۳/۷/۷<br>
-								<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> آناتومی شکم و صفاق<br>
-								<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر شعبانی<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1356" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت اول کلاس</a>
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1357" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت دوم کلاس</a>
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1358" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت سوم کلاس</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/6/601" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="govaresh-session-h-5">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#govaresh-session-b-5" aria-expanded="false" aria-controls="govaresh-session-b-5">
-									جلسۀ ۵
-								</button>
-							</h2>
-							<div id="govaresh-session-b-5" class="accordion-collapse collapse" aria-labelledby="govaresh-session-h-5" data-bs-parent="#govaresh-sessions">
-								<div class="accordion-body">
-								<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> یک‌شنبه ۱۴۰۳/۷/۸<br>
-								<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> ؟؟؟<br>
-								<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر شعبانی<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/c/2175052366/6/610" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="govaresh-session-h-6">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#govaresh-session-b-6" aria-expanded="false" aria-controls="govaresh-session-b-8">
-									جلسۀ ۶
-								</button>
-							</h2>
-							<div id="govaresh-session-b-6" class="accordion-collapse collapse" aria-labelledby="govaresh-session-h-6" data-bs-parent="#govaresh-sessions">
-								<div class="accordion-body">
-								<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> سه‌شنبه ۱۴۰۳/۷/۱۰<br>
-								<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> آناتومی معده، رودهٔ کوچک و رکتوم<br>
-								<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر شعبانی<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1402" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت اول کلاس</a>
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1403" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت دوم کلاس</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/6/652" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-							</div>
-						</div>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان فیزیولوژی:</b> دوشنبه ۱ بهمن</p>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان آناتومی:</b> یک‌شنبه ۷ بهمن</p>
+					<div class="d-flex flex-wrap justify-content-evenly mt-2">
+						<a class="btn btn-primary" href="https://t.me/c/1969902940/28151" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/6/614" target="_blank" role="button"><i class="bi bi-book"></i> آناتومی</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/10/729" target="_blank" role="button"><i class="bi bi-book"></i> فیزیولوژی</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/875/877" target="_blank" role="button"><i class="bi bi-book"></i> بیوشیمی</a>
 					</div>
 				</div>
-		  	</div>
+			</div>
 		</div>
 	</div>
 	<div class="modal fade" id="edrari-details" tabindex="-1" aria-hidden="true">
@@ -386,69 +281,43 @@
 			  		<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 				</div>
 				<div class="modal-body" id="edrari-modal-body">
-					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> -</p>
+					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> تدریس این بلوک پایان یافت.</p>
 					<p class="my-2"><i class="bi bi-geo-alt-fill"></i> <b>مکان برگزاری:</b> ابن سینا، کلاس شهید هاشمی‌نژاد</p>
 					<p class="my-2"><i class="bi bi-people-fill"></i> <b>اساتید:</b> دکتر عسگری، دکتر نظم‌آرا، دکتر بلوچ‌نژاد، دکتر فلاح</p>
 					<p class="my-2"><i class="bi bi-journals"></i> <b>دروس:</b> آناتومی (۰.۸ واحد)، فیزیولوژی کلیه (۰.۷ واحد)، بیوشیمی کلیه (۰.۲ واحد)</p>
 					<p class="my-2"><i class="bi bi-list-ol"></i> <b>مجموع واحدها:</b> ۱.۷ واحد</p>
-					<p class="mt-2 mb-1"><i class="bi bi-bookmarks-fill"></i> <b>جلسات برگزار شده:</b></p>
-					<p class="mb-2 text-center"><a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1294" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a></p>
-					<div class="accordion" id="edrari-sessions">
-						<div class="accordion-item">
-					  		<h2 class="accordion-header" id="edrari-session-h-1">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#edrari-session-b-1" aria-expanded="true" aria-controls="edrari-session-b-1">
-									جلسۀ ۱
-								</button>
-					  		</h2>
-					  		<div id="edrari-session-b-1" class="accordion-collapse collapse show" aria-labelledby="edrari-session-h-1" data-bs-parent="#edrari-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> یک‌شنبه ۱۴۰۳/۶/۲۵<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> آناتومی کلیه<br>
-									<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر عسگری<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1303" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت اول کلاس</a>
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1304" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت دوم کلاس</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/12/497" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-					  		</div>
-						</div>
-						<div class="accordion-item">
-					  		<h2 class="accordion-header" id="edrari-session-h-2">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#edrari-session-b-2" aria-expanded="false" aria-controls="edrari-session-b-2">
-									جلسۀ ۲
-								</button>
-					  		</h2>
-					  		<div id="edrari-session-b-2" class="accordion-collapse collapse" aria-labelledby="edrari-session-h-2" data-bs-parent="#edrari-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> سه‌شنبه ۱۴۰۳/۶/۲۷<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> بافت کلیه<br>
-									<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر نظم‌آرا<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1317" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت کلاس</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/12/539" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-					 		</div>
-						</div>
-						<div class="accordion-item">
-					  		<h2 class="accordion-header" id="edrari-session-h-3">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#edrari-session-b-3" aria-expanded="false" aria-controls="edrari-session-b-3">
-									جلسۀ ۳
-								</button>
-					  		</h2>
-					  		<div id="edrari-session-b-3" class="accordion-collapse collapse" aria-labelledby="edrari-session-h-3" data-bs-parent="#edrari-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> یک‌شنبه ۱۴۰۳/۷/۱<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> تشکیل کلیه<br>
-									<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر عسگری<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1345" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت کلاس</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/12/557" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-					 		</div>
-						</div>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان فیزیولوژی + بیوشیمی:</b> شنبه ۲۲ دی</p>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان آناتومی:</b> چهارشنبه ۲۶ دی</p>
+					<div class="d-flex flex-wrap justify-content-evenly mt-2">
+						<a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1294" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/12/612" target="_blank" role="button"><i class="bi bi-book"></i> آناتومی</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/20/621" target="_blank" role="button"><i class="bi bi-book"></i> فیزیولوژی</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/24/733" target="_blank" role="button"><i class="bi bi-book"></i> بیوشیمی</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="ghodad-details" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="ghodad-modal-title">جزئیات بلوک غدد نظری</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+				<div class="modal-body" id="ghodad-modal-body">
+					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> -</p>
+					<p class="my-2"><i class="bi bi-geo-alt-fill"></i> <b>مکان برگزاری:</b> ابن سینا، کلاس شهید هاشمی‌نژاد</p>
+					<p class="my-2"><i class="bi bi-people-fill"></i> <b>اساتید:</b> دکتر نوربخش، دکتر فلاح، دکتر نیک‌بخت، دکتر بادلی</p>
+					<p class="my-2"><i class="bi bi-journals"></i> <b>دروس:</b> بیوشیمی هورمون (۰.۷ واحد)، فیزیولوژی غدد (۱.۲ واحد)، آناتومی غدد (۰.۲ واحد)</p>
+					<p class="my-2"><i class="bi bi-list-ol"></i> <b>مجموع واحدها:</b> ۲.۱ واحد</p>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان فیزیولوژی + آناتومی:</b> شنبه ۲۹ دی</p>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان بیوشیمی:</b> چهارشنبه ۱۰ بهمن</p>
+					<div class="d-flex flex-wrap justify-content-evenly mt-2">
+						<a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1287" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/26/795" target="_blank" role="button"><i class="bi bi-book"></i> بیوشیمی</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/22/817" target="_blank" role="button"><i class="bi bi-book"></i> فیزیولوژی</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/16/889" target="_blank" role="button"><i class="bi bi-book"></i> آناتومی</a>
 					</div>
 				</div>
 			</div>
@@ -466,47 +335,13 @@
 					<p class="my-2"><i class="bi bi-geo-alt-fill"></i> <b>مکان برگزاری:</b> ابن سینا، کلاس شهید هاشمی‌نژاد</p>
 					<p class="my-2"><i class="bi bi-people-fill"></i> <b>اساتید:</b> دکتر رضوی، دکتر امیرمظفری، دکتر مجتهدی، دکتر ایراجیان، دکتر میرکلانتری، دکتر مسجدیان، دکتر طالبی</p>
 					<p class="my-2"><i class="bi bi-list-ol"></i> <b>واحد نظری:</b> ۲.۴ واحد</p>
-					<p class="mt-2 mb-1"><i class="bi bi-bookmarks-fill"></i> <b>جلسات برگزار شده:</b></p>
-					<p class="mb-2 text-center"><a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1298" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a></p>
-					<div class="accordion" id="bakteri-sessions">
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="bakteri-session-h-1">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bakteri-session-b-1" aria-expanded="true" aria-controls="bakteri-session-b-1">
-									جلسۀ ۱
-								</button>
-							</h2>
-							<div id="bakteri-session-b-1" class="accordion-collapse collapse show" aria-labelledby="bakteri-session-h-1" data-bs-parent="#bakteri-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> شنبه ۱۴۰۳/۶/۲۴<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> ساختمان و مقدمات باکتری<br>
-									<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر رضوی<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1305" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت کلاس</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/28/541" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-					  		<h2 class="accordion-header" id="bakteri-session-h-2">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bakteri-session-b-2" aria-expanded="false" aria-controls="bakteri-session-b-2">
-									جلسۀ ۲
-								</button>
-					  		</h2>
-							<div id="bakteri-session-b-2" class="accordion-collapse collapse" aria-labelledby="bakteri-session-h-2" data-bs-parent="#bakteri-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> سه‌شنبه ۱۴۰۳/۶/۲۷<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> ساختمان و مقدمات باکتری<br>
-									<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر رضوی<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/c/2175052366/28/541" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-					  		</div>
-						</div>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان:</b> یک‌شنبه ۱۶ دی</p>
+					<div class="d-flex flex-row justify-content-evenly mt-2">
+						<a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1535" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/28/620" target="_blank" role="button"><i class="bi bi-book"></i> محتوای درسی</a>
 					</div>
 				</div>
-		  	</div>
+			</div>
 		</div>
 	</div>
 	<div class="modal fade" id="virus-details" tabindex="-1" aria-hidden="true">
@@ -521,30 +356,13 @@
 					<p class="my-2"><i class="bi bi-geo-alt-fill"></i> <b>مکان برگزاری:</b> ابن سینا، کلاس شهید هاشمی‌نژاد</p>
 					<p class="my-2"><i class="bi bi-people-fill"></i> <b>اساتید:</b> دکتر کیانی، دکتر منوری، دکتر کربلائی‌نیا، دکتر موسوی‌زاده، دکتر کیوانی، دکتر عطایی، دکتر بخارائی سلیم، دکتر توکلی</p>
 					<p class="my-2"><i class="bi bi-list-ol"></i> <b>واحد نظری:</b> ۱.۰ واحد</p>
-					<p class="mt-2 mb-1"><i class="bi bi-bookmarks-fill"></i> <b>جلسات برگزار شده:</b></p>
-					<p class="mb-2 text-center"><a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1300" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a></p>
-					<div class="accordion" id="virus-sessions">
-						<div class="accordion-item">
-					  		<h2 class="accordion-header" id="virus-session-h-1">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#virus-session-b-1" aria-expanded="true" aria-controls="virus-session-b-1">
-									جلسۀ ۱
-								</button>
-							</h2>
-							<div id="virus-session-b-1" class="accordion-collapse collapse show" aria-labelledby="virus-session-h-1" data-bs-parent="#virus-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> شنبه ۱۴۰۳/۶/۲۴<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> کلیات ویروس شناسی<br>
-									<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر کیانی<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/PezeshkiIran1402Mehr/1306" target="_blank" role="button"><i class="bi bi-filetype-pptx"></i> پاورپوینت کلاس</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/32/471" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-					 		</div>
-						</div>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان:</b> چهارشنبه ۱۹ دی</p>
+					<div class="d-flex flex-row justify-content-evenly mt-2">
+						<a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1300" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/32/632" target="_blank" role="button"><i class="bi bi-book"></i> محتوای درسی</a>
 					</div>
 				</div>
-		  	</div>
+			</div>
 		</div>
 	</div>
 	<div class="modal fade" id="fizik-details" tabindex="-1" aria-hidden="true">
@@ -560,57 +378,13 @@
 					<p class="my-2"><i class="bi bi-people-fill"></i> <b>اساتید:</b> دکتر نجف‌زاده، دکتر کشاورزی، دکتر شیرولیلو، دکتر اصغرزاده، دکتر زارع صادقی</p>
 					<p class="my-2"><i class="bi bi-journals"></i> <b>دروس:</b> نظری (۱.۸ واحد)، عملی (۰.۲ واحد)</p>
 					<p class="my-2"><i class="bi bi-list-ol"></i> <b>مجموع واحدها:</b> ۲.۰ واحد</p>
-					<p class="mt-2 mb-1"><i class="bi bi-bookmarks-fill"></i> <b>جلسات برگزار شده:</b></p>
-					<p class="mb-2 text-center"><a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1284" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a></p>
-					<div class="accordion" id="fizik-sessions">
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="fizik-session-h-1">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#fizik-session-b-1" aria-expanded="true" aria-controls="fizik-session-b-1">
-									جلسۀ ۱
-								</button>
-							</h2>
-							<div id="fizik-session-b-1" class="accordion-collapse collapse show" aria-labelledby="fizik-session-h-1" data-bs-parent="#fizik-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> چهارشنبه ۱۴۰۳/۶/۲۱<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> اشعه ایکس<br>
-									<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر نجف‌زاده<br>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="fizik-session-h-2">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fizik-session-b-2" aria-expanded="false" aria-controls="fizik-session-b-2">
-									جلسۀ ۲
-								</button>
-							</h2>
-							<div id="fizik-session-b-2" class="accordion-collapse collapse" aria-labelledby="fizik-session-h-2" data-bs-parent="#fizik-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> چهارشنبه ۱۴۰۳/۶/۲۸<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> مبانی MRI<br>
-									<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر نجف‌زاده<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/c/2175052366/461/547" target="_blank" role="button"><i class="bi bi-mic-fill"></i> ویس کلاس</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="fizik-session-h-3">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fizik-session-b-3" aria-expanded="false" aria-controls="fizik-session-b-3">
-									جلسۀ ۳ (آنلاین)
-								</button>
-							</h2>
-							<div id="fizik-session-b-3" class="accordion-collapse collapse" aria-labelledby="fizik-session-h-3" data-bs-parent="#fizik-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> چهارشنبه ۱۴۰۳/۷/۴<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> ؟؟؟<br>
-									<i class="bi bi-mortarboard-fill"></i> <b>استاد جلسه:</b> دکتر نجف‌زاده<br>
-								</div>
-							</div>
-						</div>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان:</b> چهارشنبه ۱۷ بهمن</p>
+					<div class="d-flex flex-row justify-content-evenly mt-2">
+						<a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1284" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/461/547" target="_blank" role="button"><i class="bi bi-book"></i> محتوای درسی</a>
 					</div>
 				</div>
-		  	</div>
+			</div>
 		</div>
 	</div>
 	<div class="modal fade" id="govaresh-amali-details" tabindex="-1" aria-hidden="true">
@@ -621,29 +395,13 @@
 					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 				</div>
 				<div class="modal-body" id="govaresh-amali-modal-body">
-					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> -</p>
+					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> دوشنبه ۲۱ آبان جلسهٔ آخر</p>
 					<p class="my-2"><i class="bi bi-geo-alt-fill"></i> <b>مکان برگزاری:</b> طبقۀ منفی یک دانشکده پیراپزشکی، سالن تشریح</p>
 					<p class="my-2"><i class="bi bi-list-ol"></i> <b>واحد عملی:</b> ۰.۵ واحد</p>
-					<p class="mt-2 mb-1"><i class="bi bi-bookmarks-fill"></i> <b>جلسات برگزار شده:</b></p>
-					<p class="mb-2 text-center"><a class="btn btn-primary" href="https://t.me/c/1969902940/28152" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a></p>
-					<div class="accordion" id="govaresh-amali-sessions">
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="govaresh-amali-session-h-1">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#govaresh-amali-session-b-1" aria-expanded="true" aria-controls="govaresh-session-b-1">
-									جلسۀ ۱
-								</button>
-							</h2>
-							<div id="govaresh-amali-session-b-1" class="accordion-collapse collapse show" aria-labelledby="govaresh-amali-session-h-1" data-bs-parent="#govaresh-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> دوشنبه ۱۴۰۳/۶/۲۶<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> آناتومی حفرۀ دهان، جدار قدامی و خلفی شکم<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/c/2175052366/8/510" target="_blank" role="button"><i class="bi bi-camera-video-fill"></i> سری فیلم اول</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/8/523" target="_blank" role="button"><i class="bi bi-camera-video-fill"></i> سری فیلم دوم</a>
-									</div>
-								</div>
-							</div>
-						</div>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان:</b> دوشنبه ۲۶ آذر</p>
+					<div class="d-flex flex-row justify-content-evenly mt-2">
+						<a class="btn btn-primary" href="https://t.me/c/1969902940/28152" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/8/537" target="_blank" role="button"><i class="bi bi-book"></i> محتوای درسی</a>
 					</div>
 				</div>
 			</div>
@@ -657,29 +415,33 @@
 					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 				</div>
 				<div class="modal-body" id="edrari-amali-modal-body">
-					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> -</p>
+					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> دوشنبه ۲۸ آبان جلسهٔ آخر</p>
 					<p class="my-2"><i class="bi bi-geo-alt-fill"></i> <b>مکان برگزاری:</b> طبقۀ منفی یک دانشکده پیراپزشکی، سالن تشریح</p>
 					<p class="my-2"><i class="bi bi-list-ol"></i> <b>واحد عملی:</b> ۰.۲ واحد</p>
-					<p class="mt-2 mb-1"><i class="bi bi-bookmarks-fill"></i> <b>جلسات برگزار شده:</b> -</p>
-					<p class="mb-2 text-center"><a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1294" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a></p>
-					<div class="accordion" id="govaresh-amali-sessions">
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="govaresh-amali-session-h-1">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#govaresh-amali-session-b-1" aria-expanded="true" aria-controls="govaresh-session-b-1">
-									جلسۀ ۱
-								</button>
-							</h2>
-							<div id="edrari-amali-session-b-1" class="accordion-collapse collapse show" aria-labelledby="edrari-amali-session-h-1" data-bs-parent="#edrari-sessions">
-								<div class="accordion-body">
-									<i class="bi bi-calendar-check-fill"></i> <b>تاریخ برگزاری:</b> دوشنبه ۱۴۰۳/۷/۲<br>
-									<i class="bi bi-bookmark-fill"></i> <b>موضوع جلسه:</b> آناتومی کلیه، حالب، مثانه، پیشاب‌راه<br>
-									<div class="d-flex flex-row justify-content-between mt-2">
-										<a class="btn btn-success" href="https://t.me/c/2175052366/14/560" target="_blank" role="button"><i class="bi bi-camera-video-fill"></i> سری فیلم اول</a>
-										<a class="btn btn-success" href="https://t.me/c/2175052366/14/569" target="_blank" role="button"><i class="bi bi-camera-video-fill"></i> سری فیلم دوم</a>
-									</div>
-								</div>
-							</div>
-						</div>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان:</b> دوشنبه ۳ دی</p>
+					<div class="d-flex flex-row justify-content-evenly mt-2">
+						<a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1294" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/14/559" target="_blank" role="button"><i class="bi bi-book"></i> محتوای درسی</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="ghodad-amali-details" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="ghodad-amali-modal-title">جزئیات درس غدد عملی</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+				<div class="modal-body" id="ghodad-amali-modal-body">
+					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> دوشنبه ۵ آذر جلسهٔ اول</p>
+					<p class="my-2"><i class="bi bi-geo-alt-fill"></i> <b>مکان برگزاری:</b> طبقۀ منفی یک دانشکده پیراپزشکی، سالن تشریح</p>
+					<p class="my-2"><i class="bi bi-list-ol"></i> <b>واحد عملی:</b> ۰.۲ واحد</p>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان:</b> دوشنبه ۱۹ آذر</p>
+					<div class="d-flex flex-row justify-content-evenly mt-2">
+						<a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1294" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/18/968" target="_blank" role="button"><i class="bi bi-book"></i> محتوای درسی</a>
 					</div>
 				</div>
 			</div>
@@ -693,11 +455,15 @@
 					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 				</div>
 				<div class="modal-body" id="bakteri-amali-modal-body">
-					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> گروه بندی A و B به زودی مشخص می‌شود.</p>
+					<p class="mb-2"><i class="bi bi-info-square-fill"></i> <b>توضیحات جلسۀ پیش‌رو:</b> دوشنبه ۲۱ آبان جلسهٔ آخر گروه A</p>
 					<p class="my-2"><i class="bi bi-geo-alt-fill"></i> <b>مکان برگزاری:</b> آزمایشگاه میکروب شناسی</p>
 					<p class="my-2"><i class="bi bi-list-ol"></i> <b>واحد عملی:</b> ۰.۶ واحد</p>
-					<p class="mt-2 mb-1"><i class="bi bi-bookmarks-fill"></i> <b>جلسات برگزار شده:</b> -</p>
-					<p class="mb-2 text-center"><a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1299" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a></p>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان گروه A: </b> دوشنبه ۲۸ آبان</p>
+					<p class="my-2"><i class="bi bi-bell-fill"></i> <b>تاریخ امتحان گروه B: </b> دوشنبه ۱۰ دی</p>
+					<div class="d-flex flex-row justify-content-evenly mt-2">
+						<a class="btn btn-primary" href="https://t.me/PezeshkiIran1402Mehr/1368" target="_blank" role="button"><i class="bi bi-file-earmark-arrow-down-fill"></i> دریافت کوریکولوم</a>
+						<a class="btn btn-success" href="https://t.me/mohtava_term3_mehr402/30/735" target="_blank" role="button"><i class="bi bi-book"></i> محتوای درسی</a>
+					</div>
 				</div>
 			</div>
 		</div>

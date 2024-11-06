@@ -1,134 +1,1 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap");
-.page-index {
-	background-color: #3f51b5;
-	min-height: 100vh;
-	font-family: "Source Sans Pro", "Vazirmatn";
-}
-.page-index h2 {
-	font-size: 72px;
-	color: #e91e63;
-}
-.page-index h3 {
-	font-size: 42px;
-}
-.page-index .bg-light {
-	width: 80%;
-	padding: 50px;
-	text-align: center;
-	border-radius: 5px;
-	position: relative;
-	top: 50%;
-	right: 50%;
-	transform: translate(50%, 0%);
-}
-.text-break { word-wrap: break-word; }
-.table > thead > tr > th {
-	vertical-align: middle;
-	text-align: center;
-}
-.table > tbody > tr > th {
-	vertical-align: middle;
-	text-align: center;
-}
-.table > tbody > tr > td {
-	vertical-align: middle;
-	text-align: center;
-}
-table td.bg-success:hover, table td.bg-danger:hover, table td.bg-info:hover, table td.bg-warning:hover, table td.bg-noclass:hover, td .flex-fill {
-    cursor: pointer;
-}
-.bg-noclass { background-color: #aaa !important; }
-.text-noclass { color: #aaa !important; }
-table td.bg-success:hover, td .flex-fill.bg-success:hover {
-    background-color: #146c43 !important;
-}
-.bg-success.no-modal:hover, td .flex-fill.bg-success.no-modal:hover {
-    background-color: #198754 !important;
-	cursor: auto;
-}
-table td.bg-danger:hover, td .flex-fill.bg-danger:hover {
-    background-color: #ba202f !important;
-}
-.bg-danger.no-modal:hover, td .flex-fill.bg-danger.no-modal:hover {
-    background-color: #dc3545 !important;
-	cursor: auto;
-}
-table td.bg-info:hover, td .flex-fill.bg-info:hover {
-    background-color: #0aa2c0 !important;
-}
-.bg-info.no-modal:hover, td .flex-fill.bg-info.no-modal:hover {
-    background-color: #0dcaf0 !important;
-	cursor: auto;
-}
-table td.bg-warning:hover, td .flex-fill.bg-warning:hover {
-    background-color: #d29d00 !important;
-}
-.bg-warning.no-modal:hover, td .flex-fill.bg-warning.no-modal:hover {
-    background-color: #ffc107 !important;
-	cursor: auto;
-}
-table td.bg-noclass:hover, td .flex-fill.bg-noclass:hover {
-    background-color: #888 !important;
-}
-.bg-noclass.no-modal:hover, td .flex-fill.bg-noclass.no-modal:hover {
-    background-color: #aaa !important;
-	cursor: auto;
-}
-td span {
-	color: #00000080;
-	font-size: 14px;
-}
-:root {
-	font-size: 16px;
-}
-table {
-	height: 768px;
-	min-width: 1024px;
-}
-.modal-title {
-	font-family: "Source Sans Pro", "Vazirmatn";
-	font-weight: 700;
-}
-.modal-body {
-	font-family: "Source Sans Pro", "Vazirmatn";
-	font-size: 16px;
-}
-@media (max-width: 1024px) {
-	.page-index h2 {
-		font-size: 56px;
-	}
-	.page-index h3 {
-		font-size: 28px;
-	}
-	:root {
-		font-size: 14px;
-	}
-	td span {
-		font-size: 12px;
-	}
-}
-@media (max-width: 767px) {
-	.page-index h2 {
-		font-size: 32px;
-	}
-	.page-index h3 {
-		font-size: 18px;
-	}
-	.page-index .bg-light {
-		width: 100%;
-	}
-	:root {
-		font-size: 12px;
-	}
-	td span {
-		font-size: 10px;
-	}
-	table {
-		height: 576px;
-		min-width: 576px;
-	}
-	.modal-body {
-		font-size: 16px;
-	}
-}
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap");.page-index {	background-color: #3f51b5;	min-height: 100vh;	font-family: "Source Sans Pro", "Vazirmatn";}.page-index h2 {	font-size: 72px;	color: #e91e63;}.page-index h3 {	font-size: 42px;}.page-index .bg-light {	width: 80%;	padding: 50px;	text-align: center;	border-radius: 5px;	position: relative;	top: 50%;	right: 50%;	transform: translate(50%, 0%);}.text-break { word-wrap: break-word; }.table > thead > tr > th {	vertical-align: middle;	text-align: center;}.table > tbody > tr > th {	vertical-align: middle;	text-align: center;}.table > tbody > tr > td {	vertical-align: middle;	text-align: center;}table td.bg-success:hover, table td.bg-danger:hover, table td.bg-info:hover, table td.bg-warning:hover, table td.bg-noclass:hover, td .flex-fill {    cursor: pointer;}.bg-noclass { background-color: #aaa !important; }.text-noclass { color: #aaa !important; }table td.bg-success:hover, td .flex-fill.bg-success:hover {    background-color: #146c43 !important;}.bg-success.no-modal:hover, td .flex-fill.bg-success.no-modal:hover {    background-color: #198754 !important;	cursor: auto;}table td.bg-danger:hover, td .flex-fill.bg-danger:hover {    background-color: #ba202f !important;}.bg-danger.no-modal:hover, td .flex-fill.bg-danger.no-modal:hover {    background-color: #dc3545 !important;	cursor: auto;}table td.bg-info:hover, td .flex-fill.bg-info:hover {    background-color: #0aa2c0 !important;}.bg-info.no-modal:hover, td .flex-fill.bg-info.no-modal:hover {    background-color: #0dcaf0 !important;	cursor: auto;}table td.bg-warning:hover, td .flex-fill.bg-warning:hover {    background-color: #d29d00 !important;}.bg-warning.no-modal:hover, td .flex-fill.bg-warning.no-modal:hover {    background-color: #ffc107 !important;	cursor: auto;}table td.bg-noclass:hover, td .flex-fill.bg-noclass:hover {    background-color: #888 !important;}.bg-noclass.no-modal:hover, td .flex-fill.bg-noclass.no-modal:hover {    background-color: #aaa !important;	cursor: auto;}td span {	color: #00000080;	font-size: 14px;}:root {	font-size: 16px;}table {	height: 768px;	min-width: 1024px;}.modal-title {	font-family: "Source Sans Pro", "Vazirmatn";	font-weight: 700;}.modal-body {	font-family: "Source Sans Pro", "Vazirmatn";	font-size: 16px;}@media (max-width: 1024px) {	.page-index h2 {		font-size: 56px;	}	.page-index h3 {		font-size: 28px;	}	:root {		font-size: 14px;	}	td span {		font-size: 12px;	}}@media (max-width: 767px) {	.page-index h2 {		font-size: 32px;	}	.page-index h3 {		font-size: 18px;	}	.page-index .bg-light {		width: 100%;	}	:root {		font-size: 12px;	}	td span {		font-size: 10px;	}	table {		height: 576px;		min-width: 768px;	}	.modal-body {		font-size: 16px;	}}
